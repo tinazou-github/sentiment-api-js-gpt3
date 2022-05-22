@@ -42,15 +42,15 @@ app.post("/result", (req,res) => {
               console.log("###" + result.data.choices[0].text + "###")
               sentiment = result.data.choices[0].text
               if (sentiment.includes('happy')) {
-                res.render("result", {data:"I'm glad you enjoying shopping with us!"})
+                res.render("result", {data:"AI detected you're happy. I'm glad you enjoying shopping with us!"})
                 
                 
             } else if (sentiment.includes('neutral')) {
-                res.render("result", {data:"I care about your shopping experience with us and I'm constantly improving on my work!"})
+                res.render("result", {data:"AI detected you're calm. I care about your shopping experience with us and I'm constantly improving on my work!"})
                 
               
             } else if (sentiment.includes('upset')) {
-                  res.render("result", {data:"I'm sorry to hear that, one of our staff will be contacting you shortly!"})
+                  res.render("result", {data:"AI detected you're upset. I'm sorry to hear that, one of our staff will be contacting you shortly!"})
               
                 } else {
                 res.send("Thank you for shopping with us! Please visit http://localhost:8080 for more offers!")}
