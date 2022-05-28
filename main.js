@@ -64,4 +64,6 @@ app.get("/result", (req,res) =>{
     res.send("Thank you for shopping with us! Please visit http://localhost:8080 for more offers!")
 })
 
- app.listen(8080)
+ app.listen(8080);
+
+ module.exports = app;
