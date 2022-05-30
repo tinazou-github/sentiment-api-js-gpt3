@@ -1,7 +1,7 @@
 # DevOps Sentiment App
 
--Everytime on pull or push, I can use github workflow to automate my test case when needed, before deloying to the production side. 
--Made a docker container to dockerize my app so that I can facilitate easier deployment in the future. 
+* Everytime on pull or push, I can use github workflow to automate my test case when needed, before deloying to the production side. 
+* Made a docker container to dockerize my app so that I can facilitate easier deployment in the future. 
 
 ## Test it by building the container 
 ```
