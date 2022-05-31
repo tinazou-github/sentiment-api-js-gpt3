@@ -7,7 +7,7 @@ git checkout -b <my-new-branch>
 ```
 git commit -m <my-way-of-thinking>
 ```
-## Push it up to your branch
+## push it up to your branch
 ```
 git push github <my-way-of-thinking>
 ```
