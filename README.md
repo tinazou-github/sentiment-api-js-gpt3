@@ -1,19 +1,13 @@
-# DevOps Sentiment App
-
-* Everytime on pull or push, I can use github workflow to automate my test case when needed, before deloying to the production side. 
-* Made a docker container to dockerize my app so that I can facilitate easier deployment in the future. 
-
-## Test it by building the container 
+# original gpt3 sentiment api in js 
+## calling geeks with heart of originality to push creative functions into your branch!
 ```
-docker build -t balloon .
+git checkout -b <my-new-branch>
 ```
-
-## Run the container
+## commit your way of thinking
 ```
-docker run -d -p 8080:8080 balloon
+git commit -m <my-way-of-thinking>
 ```
-
-## Browse it at
+## Push it up to your branch
+```git push github <my-way-of-thinking>
 ```
-http://localhost:8080
-```
+# let's work collaborately!:)
